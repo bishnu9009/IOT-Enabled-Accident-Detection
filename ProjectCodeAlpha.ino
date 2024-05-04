@@ -1,7 +1,7 @@
-#define BLYNK_TEMPLATE_ID "TMPL3h-P1yoin"
-#define BLYNK_DEVICE_NAME "Accident Location"
-#define BLYNK_TEMPLATE_NAME "Accident Location"
-#define BLYNK_AUTH_TOKEN "UPAWsInUPFhzsX-gHlfSpIgn0IERNeRY"
+#define BLYNK_TEMPLATE_ID "ENTER YOUR TEMPLATE ID"
+#define BLYNK_DEVICE_NAME "ENTER YOUR DEVICE NAME"
+#define BLYNK_TEMPLATE_NAME "KEEP IT SAME AS DEVICE NAME"
+#define BLYNK_AUTH_TOKEN "GET THIS FROM YOUR BLYNK DEVICE"
 
 //GPS Module Settings
 // GPS Module RX pin to ESP32 17
@@ -25,8 +25,8 @@
 char auth[] = BLYNK_AUTH_TOKEN;
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "JioFiber-2.4Ghz";
-char pass[] = "Jmn489#zmpSTR";
+char ssid[] = "APN(YOUR WIFI ACCESS POINT NAME)";
+char pass[] = "PASS";
 
 String message;
 
